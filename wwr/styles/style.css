@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Adamina&family=Merienda:wght@400;700&display=swap');
+
 header{
     background-color: rgb(127, 163, 140);
 }
@@ -10,6 +12,7 @@ nav a{
     text-align: center;
     text-decoration: none;
     color: white;
+    padding: 35px;
 }
 
 nav a:hover{
@@ -23,6 +26,7 @@ nav a:hover{
 
 .button-box{
     text-align: center;
+    margin-top: 50px;
     
 }
 
@@ -30,13 +34,22 @@ main section{
     text-align: center;
 }
 
+main section img{
+    box-sizing: border-box;
+}
+
 #background{
     height: 725px;
     background-color:rgb(255, 203, 203);
+    margin-top: 50px;
    
 }
 body{
     background-color: #10e9a7;
+    font-family: "Adamina", Times, serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;  
 }
 header{
     background-color:rgba(127, 163, 140);
@@ -45,6 +58,10 @@ header{
 .book, .join{
     background-color:rgb(127, 163, 140);
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color:rgb(127, 163, 140);
@@ -63,6 +80,11 @@ footer{
 .home-title{
     margin: 0 auto;
     text-align: center;
+    font-family: "Merienda", Times, serif;
+    font-size: 2em; 
+    margin-top: 10px; 
+    color: rgb(255, 203, 203);
+    margin-top: 50px;
 }
 
 h4{
@@ -80,6 +102,7 @@ footer a{
 
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img{
@@ -104,6 +127,8 @@ footer h3 a:hover{
 
 footer{
    color:rgb(255, 203, 203);
+   padding: 25px 50px;
+   margin-top: 50px;
 }
 
 .under{
@@ -111,4 +136,48 @@ footer{
 }
 .book{
     color:white;
+    margin-top: 50px;
+}
+.msg p{
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+.msg {
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 50px;
+}
+
+h2 {
+    margin: 0;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+.footer .social img{
+    padding-top: 15px;
+}
+.rivers-card{
+    margin: 200px 0;
+}
+
+.camping-card{
+    margin: 200px 0;
+}
+
+.rapids-card{
+    margin: 200px 0;
+}
+
+.card-img{
+    border: 10px solid rgb(255, 203, 203);
+}
+.mountains{
+    margin-top: 50px;
+}
+.home-grid{
+    margin-top: 150px;
 }
