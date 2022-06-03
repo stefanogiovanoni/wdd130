@@ -95,12 +95,12 @@ p {
 }
 
 p.colored {
-  background-color: var(--paragraph-background-color);
+  background-color: #85756E;
   color: var(--paragraph-color-on-color);
 }
 
 nav {
-  background-color: var(--nav-background-color);
+  background-color: #780116;
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
