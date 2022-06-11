@@ -1,0 +1,11 @@
+.grid-container{
+    display: grid;
+    grid-template-columns:
+    1fr 1fr;
+    background-color:grey;
+    padding: 50px;
+}
+h1{
+    z-index: 1;
+    text-align: center;
+}

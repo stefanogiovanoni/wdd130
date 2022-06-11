@@ -1,0 +1,16 @@
+.circle {
+    width: 100%;
+    display: block;
+    margin: 0;
+}
+
+.desk, .graphics, .person {
+    border-radius: 50%;
+    border: 50px solid rgb(66, 75, 83);
+    margin: 120px;
+    width: 20%
+
+}
+ body {
+     margin: 0;
+ }

@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+    color: white;
+}
+h1:hover {
+    color: black;
+}
+h4 {
+    text-align: center;
+    color: white;
+    width: 45%;
+    margin: 0 auto;
+    
+}
+h3 {
+    text-align: center;
+    color: white;
+}
+li {
+    text-align: justify;
+    width: 25%;
+    color: black;
+    margin: 0 auto;
+    font-size: 20px;
+     }
+img {
+    width: 15%;
+    display: block;
+    margin: 0 auto;
+}
+.quote {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin: 50px auto;
+    width: 25%;
+}
+.name {
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    margin: 10px auto;
+    width: 33%;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="style.css">
+ <title>Challenge W6</title>
+ <style>
+     .grid-container {
+         display: grid;
+         grid-template-columns: auto auto;
+         background-color: grey;
+         padding: 0.1px;
+     }
+     aside {
+         background-color: grey;
+         padding: 150px;
+         text-align: right;
+         grid-column: 1/2;
+         color:red;
+         font-style: italic;
+         font-size: 60px;
+         
+     }
+     .grid-container img{
+         background-color:white;
+         position: absolute;
+         width: 50%;
+         grid-column: 1/2;
+     }
+     h1{
+         z-index: 1;
+         font-size: 210px;
+         grid-template-columns: 2;
+         align-self: center;
+         grid-column: 1/2;
+     }
+
+ </style>
+</head>
+<body>
+    <div class="grid-container">
+        <img src="images/cherries.png">
+        <h1>Tart & Sweet</h1>
+        <aside>
+            <p><strong>Cherries</strong></p>
+        </aside>
+        
+    </div>
+</body>
+</html>
