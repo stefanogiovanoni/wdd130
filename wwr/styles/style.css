@@ -236,6 +236,93 @@ h2 {
    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
+/* Start of the RIVERS page (page 2), 
+ Be careful about targeting generic elements
+ like p, img, h2, etc. in your new subpage CSS
+ Make meaningful class and id names for elements
+  that will be different from your home page elements.
+ */
+
+ .rivers-grid{
+    margin-top: 150px;
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+}
+.river1-card{
+    margin: 1px 0;
+    grid-column: 1/5;
+    grid-row: 1/2;
+}
+
+.river2-card{
+    margin: 1px 0;
+    grid-column: 7/11;
+    grid-row: 2/3
+}
+
+.river3-card{
+    margin: 1px 0;
+    grid-column: 1/5;
+    grid-row: 3/4
+}
+.title1{
+    margin: 1px 0;
+    grid-column: 5/11;
+    grid-row: 1/2;
+    text-align: center;
+}
+.p1{
+    margin: 50px 0;
+    grid-column: 5/11;
+    grid-row: 1/2;
+    text-align: justify;
+}
+.title2{
+    margin: 1px 0;
+    grid-column: 1/7;
+    grid-row: 2/3;
+    text-align: center;
+}
+.p2{
+    margin: 50px 0;
+    grid-column: 1/7;
+    grid-row: 2/3;
+    text-align: justify;
+}
+.title3{
+    margin: 1px 0;
+    grid-column: 6/11;
+    grid-row: 3/4;
+    text-align: center;
+}
+.p3{
+    margin: 50px 0;
+    grid-column: 5/11;
+    grid-row: 3/4;
+    text-align: justify;
+}
+.footer{
+    color:rgb(255, 203, 203);
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+ .card-img1{
+    border: 1px solid rgb(255, 203, 203);
+    width: 90%;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.card-img1:hover{
+    opacity: 0.6;
+    transform: scale(1.1)
+}
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
