@@ -1,0 +1,43 @@
+nav {
+    display:flex;
+    justify-content: space-around;
+}
+nav a{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(6, 104, 250);
+    padding: 35px;
+    background-color:grey;
+    flex: 1;
+    display: inline-block;
+    position: relative;
+    font-size: 100%;
+}
+nav a::after{
+    content: "";
+    width: 0;
+    height: 10px;
+    background: blue;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100%;
+    transition: 0.5s;
+}
+nav a:hover::after{
+    width: 100%;
+}
+
+nav a:hover{
+    background-color: rgb(251, 245, 245);
+    color: black;
+}
+header{
+    background-color: blue;
+    display: grid;
+    text-align: center;
+    color: white;
+}
+h1{
+    font-size: 20px;
+}
