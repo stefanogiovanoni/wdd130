@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#banner{
+    background: linear-gradient(rgba(0,0,0,0.5),rgb(255, 0, 0)),url(R.jpg);
+    background-size:cover;
+    background-size: center;
+    height: 100vh;
+}

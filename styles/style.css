@@ -17,7 +17,7 @@ nav a::after{
     content: "";
     width: 0;
     height: 10px;
-    background: blue;
+    background: grey;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -33,7 +33,7 @@ nav a:hover{
     color: black;
 }
 header{
-    background-color: blue;
+    background-color: rgba(24, 24, 192, 0.697);
     display: grid;
     text-align: center;
     color: white;
@@ -41,6 +41,21 @@ header{
 h1{
     font-size: 20px;
 }
+#banner {
+    
+    background: linear-gradient(rgba(4,9,30,0.7),blue),url(R.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+p{
+    color:white;
+}
+
 @media screen and (max-width: 900px) {
     
     nav, footer {
