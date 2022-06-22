@@ -53,3 +53,19 @@
     border: 5px solid #fff;
     transform: scale(1.1);
 }
+footer{
+    background-color:rgb(127, 163, 140);
+    text-decoration: underline;
+    color:rgb(255, 203, 203);
+   padding: 25px 50px;
+   
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+footer a{
+    text-decoration: none;
+}
+.footer .social img{
+    padding-top: 15px;
+}
